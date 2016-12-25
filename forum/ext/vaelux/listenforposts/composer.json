@@ -1,0 +1,29 @@
+{
+    "name": "vaelux/listenforposts",
+    "type": "phpbb-extension",
+    "description": "Listens for new posts and allows arbitrary processing of it.",
+    "version": "1.0.0",
+    "time": "2016-12-14",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Siegen",
+            "email": "siegen.maulerant@gmail.com",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "composer/installers": "~1.0",
+        "phpbb/phpbb": ">=3.2.0-RC1"
+    },
+    "require-dev": {
+        "phpbb/epv": "dev-master"
+    },
+    "extra": {
+        "display-name": "Listen For Posts",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.0-RC1"
+        }
+    }
+}

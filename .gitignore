@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/forum/cache/
+/forum/config.php
+/wiki/LocalSettings.php
+/.idea

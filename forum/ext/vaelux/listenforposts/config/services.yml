@@ -1,0 +1,6 @@
+services:
+    vaelux.listenforposts.listener:
+        class: vaelux\listenforposts\event\listener
+        arguments:
+        tags:
+            - { name: event.listener }
